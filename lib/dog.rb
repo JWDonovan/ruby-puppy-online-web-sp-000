@@ -1,5 +1,7 @@
 # Add your code here
 class Dog
+  attr_access :name
+  
   @@all = []
 
   def initialize(name)
